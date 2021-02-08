@@ -1,0 +1,71 @@
+#fundo{
+    background-color: #191970;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    font-family: Arial;
+}
+header.titulo{
+    color: white;
+    border: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    border-right-color: #191970;
+    border-left-color: #191970;
+    border-top-color: #191970;
+    border-bottom-color: black;
+    text-shadow:black 1.8px 1.8px 1.8px 1.8px
+}
+p.orientacao{
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 13px;
+    text-shadow:black 1.8px 1.8px 1.8px 1.8px
+}
+#formulario{
+    color: white;
+    text-align: left;
+    padding-left: 80px;
+    font-size: 15px;
+    text-shadow:black 1.8px 1.8px 1.8px 1.8px;
+}
+.formato{
+    border-radius: 5px;
+    padding: 6px 6px 6px 6px;
+    background-color: #B2DFEE;
+    border: #B2DFEE;
+    width: 325px;
+    box-shadow: black 1.8px 1.8px 1.8px 1.8px;
+}
+select.formato2{
+    border-radius: 5px;
+    padding: 6px 6px 6px 6px;
+    background-color: #FF4500;
+    border: #FF4500;
+    width: 280px;
+    box-shadow: black 1.8px 1.8px 1.8px 1.8px;
+}
+input.enviar{
+    background-color: black;
+    border: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin-left: 150px;
+    box-shadow: black 1.8px 1.8px 1.8px 1.8px;
+}
+footer.rodape{
+    border: solid #98FB98;
+    background-color: #98FB98;
+    margin: 20px 400px 0 400px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="fundo">
+        <header class="titulo"><h2>Formulário de cadastro</h2></header>
+        <p class="orientacao">Preencha os campos</p>
+        <div id="formulario">
+            <form action="https://www.w3schools.com/action_page.php" method="POST">
+                <label for="campoNome"><strong>Nome:</strong></label>
+                <input type="text" id="campoNome" name="nome" placeholder="Nome completo" class="formato"><br><br>
+                <label for="campoEmail"><strong>E-mail:</strong></label>
+                <input type="email" name="email" id="campoEmail" placeholder="Seu e-mail" class="formato"><br><br>
+                <label for="campotelefone"><strong>Telefone:</strong></label>
+                <input type="number" name="telefone" id="campotelefone" placeholder="Digite seu telefone" class="formato"><br><br>
+                <label for="campoContato"><strong>Opção de contato:</strong></label>
+                <select name="opcao_contato" id="campoContato" class="formato2">
+                    <option value="op1">Selecione uma opção</option>
+                    <option value="op2">E-mail</option>
+                    <option value="op3">WhatsApp</option>
+                    <option value="op4">SMS</option>
+                    <option value="op5">Telefone</option>
+                </select><br><br>
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+        </div> 
+    </div>
+    <footer class="rodape"><strong>JUDSON R. SANTANA | CIÊNCIA DA COMPUTAÇÃO | RGM: 2345744-9</strong></footer>
+</body>
+</html>
